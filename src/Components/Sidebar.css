@@ -3,3 +3,41 @@
   
 
 }
+/* Sidebar.css */
+/* Add hover effect to the list items */
+.ListItemButton:hover {
+  background-color: orange;
+  color: white; /* Change text color to white on hover */
+}
+
+/* Add a smooth transition for the hover effect */
+.ListItemButton {
+  transition: background-color 0.3s ease;
+}
+/* .page-titles {
+  padding-bottom: 20px;
+}
+.page-titles {
+  background: #ffffff;
+  margin: 0 0px 30px;
+  padding: 15px 10px;
+  position: relative;
+  z-index: 10;
+  -webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+* {
+  outline: none;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+} */

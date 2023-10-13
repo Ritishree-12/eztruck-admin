@@ -1,70 +1,3 @@
-/* App.css */
-.container-fluid {
-  padding: 0 30px 25px 30px;
-}
-.container-fluid {
-  /* width: 100%; */
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.App {
-  display: flex;
-}
-
-.Sidebar {
-  width: 240px; /* Adjust the width as needed */
-  background: orange;
-}
-
-.Content {
-  flex: 1;
-  padding: 80px;
-}
-@media (min-width: 1024px){
-.page-wrapper {
-    margin-left: 240px;
-}
-}
-.page-wrapper {
-    background: #eef5f9;
-    padding-bottom: 60px;
-}
-* {
-    outline: none;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-user agent stylesheet
-div {
-    display: block;
-}
-body {
-   
-}
-body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
-    background: #fff;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    overflow-x: hidden;
-    color: #67757c;
-    font-weight: 300;
-}
-.dataTables_wrapper .dataTables_paginate {
-  float: right;
-  text-align: right;
-  padding-top: 0.25em;
-}
 .dt-buttons .dt-button {
     padding: 5px 15px;
     border-radius: 4px;
@@ -147,8 +80,8 @@ input[type="search" i] {
     border: 1px solid #dee2e6;
 }
 .table {
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
     margin-bottom: 1rem;
     background-color: transparent;
     overflow-x:auto;
@@ -242,7 +175,9 @@ div {
     flex: 1 1 auto;
     padding: 1.25rem;
 }
-
+.dataTables_length {
+    margin-top: 10px;
+}
 .dataTables_info, .dataTables_length {
     display: inline-block;
 }
@@ -312,19 +247,23 @@ table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTa
 }
 .table td, .table th {
     border-color: #f3f1f1;
-    padding: 0.75rem;
-    vertical-align: top;
-    border-top: 1px solid #dee2e6;
 }
 .table-bordered td, .table-bordered th {
     border: 1px solid #dee2e6;
 }
-
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
 table th {
     font-weight: 400;
 }
 th {
     text-align: inherit;
+}
+.table td, .table th {
+    border-color: #f3f1f1;
 }
 .table-bordered td, .table-bordered th {
     border: 1px solid #dee2e6;
@@ -348,5 +287,9 @@ td {
 table {
     border-collapse: collapse;
 }
-
-/* --------------------------------------------------------Earning--------------------------------------------------------------------------- */
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
